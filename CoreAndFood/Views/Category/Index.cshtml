@@ -21,10 +21,10 @@
             <td>@x.CategoryName</td>
             <td>@x.Status</td>
             <td>
-                <a href="#" class="btn btn-danger">Delete</a>
+                    <a href="/Category/CategoryDelete/@x.CategoryID" class="btn btn-danger">Delete</a>
             </td>
             <td>
-                <a href="#" class="btn btn-success">Update</a>
+                <a href="/Category/CategoryGet/@x.CategoryID" class="btn btn-success">Update</a>
             </td>
         </tr>
     }
